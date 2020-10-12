@@ -1,0 +1,83 @@
+body {
+  background-color: transparent !important;
+}
+
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.main-card,
+.navbar {
+  box-shadow: -3px 3px 15px black;
+}
+
+.select {
+  display: inline;
+}
+
+.btn-group .middle {
+  border-radius: 0;
+  border-right: 0;
+}
+
+.btn-group .first {
+  border-radius: 6% 0 0 6%;
+  border-right: 0;
+}
+
+.btn-group .last {
+  border-radius: 0 6% 6% 0;
+}
+
+.inline {
+  display: inline;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+form label,
+.label {
+  font-size: 1.5em;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.card-subtitle {
+  font-size: 1.3em;
+}
+
+.card-title-section {
+  margin-bottom: -1.2em;
+}
+
+.bit {
+  font-size: 2em;
+  padding: 0 10px;
+  margin: 2px;
+}
+
+.error.bit {
+  font-weight: bold;
+  text-decoration: underline;
+  font-size: 2em;
+  color: var(--danger);
+}
+
+.check.bit {
+  color: var(--dark);
+  border: 1px solid var(--dark);
+}
+
+.normal.bit {
+  color: var(--success);
+  border: 1px solid var(--success);
+}
+
+em.small {
+  line-height: 2px;
+}
